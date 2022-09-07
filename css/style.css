@@ -59,3 +59,11 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+
+button {
+    color: var(--color-add);
+    background: #0D606F;
+    border: 0;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+}
