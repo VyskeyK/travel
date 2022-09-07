@@ -26,3 +26,13 @@ h1 {
     line-height: 96px;
     color: #FFFFFF;
 }
+
+h2 {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: var(--color-accent);
+}
