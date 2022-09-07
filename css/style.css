@@ -93,3 +93,13 @@ input::placeholder {
     background-origin: border-box;
     background-repeat: no-repeat;
 }
+
+.stories .bg-image {
+    background: url(../assets/img/story_back.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+.stories .bg-opacity {
+    background: var(--color-bg-opaque);
+}
