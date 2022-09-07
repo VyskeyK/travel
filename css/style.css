@@ -61,6 +61,9 @@ ul {
 }
 
 button {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
     color: var(--color-add);
     background: #0D606F;
     border: 0;
