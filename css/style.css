@@ -87,3 +87,9 @@ input::placeholder {
     line-height: 29px;
     color: var(--color-accent);
 }
+
+.preview {
+    background: url(../assets/img/preview.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
