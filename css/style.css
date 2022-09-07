@@ -45,3 +45,12 @@ h3 {
     line-height: 42px;
     color: var(--color-primary);
 }
+
+p {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-primary);
+}
