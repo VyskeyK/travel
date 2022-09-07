@@ -36,3 +36,12 @@ h2 {
     text-transform: uppercase;
     color: var(--color-accent);
 }
+
+h3 {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: var(--color-primary);
+}
