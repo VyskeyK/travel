@@ -181,3 +181,8 @@ button.start-plan {
 .steps h2 {
     margin: 80px 0 40px;
 }
+
+.steps .container {
+  display: flex;
+  justify-content: space-around;
+}
