@@ -104,12 +104,14 @@ input::placeholder {
 }
 
 .stories .bg-image {
+    height: 1330px;
     background: url(../assets/img/story_back.jpg);
     background-origin: border-box;
     background-repeat: no-repeat;
 }
 
 .stories .bg-opacity {
+    height: 1270px;
     background: var(--color-bg-opaque);
 }
 
