@@ -271,3 +271,20 @@ button.start-plan {
 .slider-container .circle.selected {
     background: var(--color-accent);
 }
+
+button.find-more {
+    width: 228px;
+    height: 59px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.find-more::before {
+    content: url(../assets/svg/arrow.svg);
+    width: 35px;
+    padding-right: 12px;
+    text-align: center;
+    vertical-align: middle
+}
