@@ -253,3 +253,21 @@ button.start-plan {
 .crop.left + p {
     display: none;
 }
+
+.slider-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: 25px auto 40px;
+}
+
+.slider-container .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(242, 120, 92, 0.5);
+}
+
+.slider-container .circle.selected {
+    background: var(--color-accent);
+}
