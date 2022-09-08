@@ -133,31 +133,31 @@ button.login {
 }
 
 ul.nav {
-  display: flex;
-  justify-content: space-between;
-  width: 527px;
+    display: flex;
+    justify-content: space-between;
+    width: 527px;
 }
 
 .nav-link {
-  text-decoration: none;
-  font-family: 'Red Hat Text';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
-  color: var(--color-add);
+    text-decoration: none;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--color-add);
 }
 
 .preview .container {
-  width: 892px;
-  padding-top: 122px;
-  margin-left: 120px;
+    width: 892px;
+    padding-top: 122px;
+    margin-left: 120px;
 }
 
 .preview p {
-  font-style: italic;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: var(--color-add);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-add);
 }
