@@ -162,7 +162,13 @@ ul.nav {
     color: var(--color-add);
 }
 
+form {
+  display: flex;
+  align-items: center;
+}
+
 button.start-plan {
+    margin-left: -246px;
     width: 228px;
     height: 59px;
     font-size: 24px;
