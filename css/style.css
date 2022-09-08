@@ -212,3 +212,8 @@ button.start-plan {
 .destination h2 {
   margin-bottom: 50px;
 }
+
+.destination .container {
+  display: flex;
+  justify-content: space-between;
+}
