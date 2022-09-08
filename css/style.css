@@ -383,3 +383,11 @@ footer p {
     line-height: 21px;
     color: var(--color-add);
 }
+
+footer a img {
+    transition: .5s;
+}
+
+footer a img:hover {
+    transform: scale(1.3);
+}
