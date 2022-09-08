@@ -112,6 +112,8 @@ input::placeholder {
 }
 
 header {
+    position: relative;
+    z-index: 1;
     background: var(--color-header-bg);
     box-shadow: 0px 4px 4px var(--color-box-shadow);
 }
