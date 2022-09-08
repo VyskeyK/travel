@@ -157,6 +157,11 @@ ul.nav {
     font-size: 16px;
     line-height: 21px;
     color: var(--color-add);
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: var(--color-primary);
 }
 
 .preview .container {
