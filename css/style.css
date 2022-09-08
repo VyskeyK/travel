@@ -52,7 +52,7 @@ h3 {
     color: var(--color-primary);
 }
 
-p {
+p, .stories article a {
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
@@ -321,4 +321,8 @@ button.find-more::before {
 
 .stories article p {
     margin-top: 20px;
+}
+
+.stories article a {
+    font-weight: 700;
 }
