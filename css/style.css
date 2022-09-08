@@ -289,3 +289,7 @@ button.find-more::before {
     text-align: center;
     vertical-align: middle
 }
+
+.stories h2 {
+    margin-bottom: 45px;
+}
