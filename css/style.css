@@ -108,3 +108,8 @@ input::placeholder {
 .stories .bg-opacity {
     background: var(--color-bg-opaque);
 }
+
+header {
+    background: var(--color-header-bg);
+    box-shadow: 0px 4px 4px var(--color-box-shadow);
+}
