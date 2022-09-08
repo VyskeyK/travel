@@ -336,6 +336,11 @@ button.find-more::before, button.see-more::before {
 
 .stories article a {
     font-weight: 700;
+    transition: .5s;
+}
+
+.stories article a:hover{
+    color: var(--color-accent);
 }
 
 .container.button {
