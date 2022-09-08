@@ -314,3 +314,11 @@ button.find-more::before {
     border-radius: 16px;
     box-shadow: 0 4px 4px var(--color-primary);
 }
+
+.stories article .container {
+    margin-left: 40px;
+}
+
+.stories article p {
+    margin-top: 20px;
+}
