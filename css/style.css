@@ -75,6 +75,11 @@ button {
     border: 0;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
+    transition: .5s;
+}
+
+button:hover {
+    color: var(--color-accent);
 }
 
 input {
@@ -290,7 +295,7 @@ button.find-more::before, button.see-more::before {
     width: 35px;
     padding-right: 12px;
     text-align: center;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .stories h2 {
@@ -334,6 +339,15 @@ button.find-more::before, button.see-more::before {
 
 button.see-more {
     margin-bottom: 0;
+}
+
+button.find-more:hover::before, button.see-more:hover::before {
+    content: url(../assets/svg/arrow-accent.svg);
+    width: 35px;
+    padding-right: 12px;
+    text-align: center;
+    vertical-align: middle;
+    transition: .5s;
 }
 
 footer {
