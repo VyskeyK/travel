@@ -147,3 +147,9 @@ ul.nav {
   line-height: 21px;
   color: var(--color-add);
 }
+
+.preview .container {
+  width: 892px;
+  padding-top: 122px;
+  margin-left: 120px;
+}
