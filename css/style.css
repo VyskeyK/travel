@@ -223,3 +223,12 @@ button.start-plan {
   height: 800px;
   border-radius: 16px;
 }
+
+.dest-img.crop {
+    width: 260px;
+    overflow: hidden;
+}
+
+.dest-img.crop.left img{
+    margin-left: -540px;
+}
