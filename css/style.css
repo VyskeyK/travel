@@ -94,6 +94,8 @@ input::placeholder {
 }
 
 .preview {
+    height: 765px;
+    margin-top: -90px;
     background: url(../assets/img/preview.jpg);
     background-origin: border-box;
     background-repeat: no-repeat;
