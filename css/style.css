@@ -79,19 +79,20 @@ button {
 
 input {
     width: 892px;
-    height: 95px;
-    background: var(--color-bg-opaque);
-    border: 0;
-    border-radius: 16px;
-}
-
-input::placeholder {
-    padding-left: 41px;
+    height: 95px;    
+    padding-left: 41px;   
     font-family: 'Aleo';
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
+    border: 0;
+    border-radius: 16px;
+    color: var(--color-accent);
+    background: var(--color-bg-opaque);
+}
+
+input::placeholder{
     color: var(--color-accent);
 }
 
