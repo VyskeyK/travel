@@ -133,3 +133,13 @@ ul.nav {
   justify-content: space-between;
   width: 527px;
 }
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--color-add);
+}
