@@ -110,6 +110,13 @@ input::placeholder {
 }
 
 header {
+    height: 90px;
     background: var(--color-header-bg);
     box-shadow: 0px 4px 4px var(--color-box-shadow);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
