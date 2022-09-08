@@ -39,6 +39,7 @@ h2 {
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
+    text-align: center;
     color: var(--color-accent);
 }
 
