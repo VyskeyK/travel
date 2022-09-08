@@ -217,3 +217,9 @@ button.start-plan {
   display: flex;
   justify-content: space-between;
 }
+
+.dest-img img {
+  width: 800px;
+  height: 800px;
+  border-radius: 16px;
+}
