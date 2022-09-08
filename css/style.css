@@ -122,9 +122,10 @@ header {
 
 header .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 90px;
+    margin: 0 120px;
 }
 
 button.login {
@@ -185,6 +186,7 @@ button.start-plan {
 .steps .container {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 .steps-item-bg {
@@ -201,4 +203,8 @@ button.start-plan {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.steps-item p {
+    margin-top: 30px;
 }
