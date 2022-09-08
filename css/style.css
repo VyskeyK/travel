@@ -273,6 +273,7 @@ button.start-plan {
 }
 
 button.find-more {
+    margin: 0 auto 85px;
     width: 228px;
     height: 59px;
     font-size: 24px;
