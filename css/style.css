@@ -196,3 +196,9 @@ button.start-plan {
     border-radius: 16px;
     background: var(--color-accent);
 }
+
+.steps-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
