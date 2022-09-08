@@ -180,8 +180,8 @@ ul.nav {
 }
 
 form {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 button.start-plan {
