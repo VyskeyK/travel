@@ -274,7 +274,7 @@ button.start-plan {
     background: var(--color-accent);
 }
 
-button.find-more {
+button.find-more, button.see-more {
     margin: 0 auto 85px;
     width: 228px;
     height: 59px;
@@ -284,7 +284,7 @@ button.find-more {
     vertical-align: middle;
 }
 
-button.find-more::before {
+button.find-more::before, button.see-more::before {
     content: url(../assets/svg/arrow.svg);
     width: 35px;
     padding-right: 12px;
@@ -325,4 +325,12 @@ button.find-more::before {
 
 .stories article a {
     font-weight: 700;
+}
+
+.container.button {
+    display: flex;
+}
+
+button.see-more {
+    margin-bottom: 0;
 }
