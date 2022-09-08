@@ -1,10 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/svg/favicon.svg">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Travel Portal</title>
 </head>
 <body>
+  <header>
+    <div class="container">
+      <img src="./assets/svg/logo.svg" alt="Travel Portal Logo">
+      <nav>
+        <ul class="nav">
+          <li><a class="nav-link" href="#steps">How&nbsp;It&nbsp;Works</a></li>
+          <li><a class="nav-link" href="#preview">Plan&nbsp;Your&nbsp;Trip</a></li>
+          <li><a class="nav-link" href="#destinations">Destination</a></li>
+          <li><a class="nav-link" href="#stories">Travel&nbsp;Stories</a></li>
+        </ul>
+      </nav>
+      <button class='login'>Login</button>  
+    </div>
+  </header>
+  <main>
+    <section class="preview">
+      <div class="container">
+        <h1 id="preview">Explore the beauty of the World</h1>
+        <p >Receive personalized recommendations for countries, hotels, activities and more</p>
+        <form>
+          <input type="text" placeholder="What would you like to do?">
+          <button  class="start-plan">Start Planning</button>
+        </form>
+      </div>
+    </section>
+    <section id="steps" class="steps">
+      <h2>3 steps to the perfect trip</h2>
+      <div class="container">
+        <div class="steps-item">
+          <div class="steps-item-bg">
+            <img src="./assets/svg/bike.svg" alt="Man on bicycle">
+          </div>
+          <p>Tell us what you want to do</p>
+        </div>
+        <div class="steps-item">
+          <div class="steps-item-bg">
+            <img src="./assets/svg/calendar.svg" alt="Calendar">
+          </div>
+          <p>Share us preferable dates</p>
+        </div>
+        <div class="steps-item">
+          <div class="steps-item-bg">
+            <img src="./assets/svg/plane.svg" alt="Plane">
+          </div>
+          <p>We will give you recommendations</p>
+        </div>
+      </div>
+    </section>
+    <section id="destinations" class="destination">
+      <h2>Popular destinations</h2>
+      <div class="container">
+        <div class="dest-item">
+          <div class="dest-img crop left">
+            <img src="./assets/img/spain.jpg" alt="Sea at Spain">
+          </div>
+          <p>Spain</p>
+        </div>
+        <div class="dest-item">
+          <div class="dest-img left">
+            <img src="./assets/img/japan.jpg" alt="Torii Gate">
+          </div>
+          <p>Japan</p>
+        </div>
+        <div class="dest-item">
+          <div class="dest-img crop right">
+            <img src="./assets/img/usa.jpg" alt="The Golden Gate Bridge">
+          </div>
+          <p>USA</p>  
+        </div>
+      </div>
+      <div class="slider-container">
+        <div class="circle"></div>
+        <div class="circle selected"></div>
+        <div class="circle"></div>
+      </div>
+      <div class="container">
+        <button class='find-more'>Find More</button>
+      </div>
+    </section>
+    <section id="stories" class="stories">
+      <h2>Travel stories</h2>
+      <div class="bg-image">
+        <div class="bg-opacity">
+          <article>
+            <img src="./assets/img/story_thai.jpg" alt="Thailand">
+            <div class="container">
+              <h3>10 Photos of Attractive Thailand</h3>
+              <p lang="zxx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+              <a href="#">Read More</a>              
+            </div>
+          </article>
+          <article>
+            <img src="./assets/img/story_utah.jpg" alt="National Park, Utah">
+            <div class="container">
+              <h3>Canyonlands National Park, Utah</h3>
+              <p lang="zxx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/img/story_mountain.jpg" alt="Snow Mountains">
+            <div class="container">
+              <h3>I left my heart in the Mountains!</h3>
+              <p lang="zxx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+              <a href="#">Read More</a>              
+            </div>
+          </article>
+          <article>
+            <img src="./assets/img/story_journey.jpg" alt="Canyon">
+            <div class="container">
+              <h3>The Longest journey in my life!</h3>
+              <p lang="zxx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+              <a href="#">Read More</a>              
+            </div>
+          </article>
+          <div class="container button">
+            <button class="see-more">See More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>All Rights Reserved &#169; Travel Portal</p>
+    <ul>
+      <li><a href="https://github.com/VyskeyK" target="_blank"><img src="./assets/svg/instagram.svg" alt="Instagram"></a></li>
+      <li><a href="https://rs.school/js-stage0/" target="_blank"><img src="./assets/svg/youtube.svg" alt="Youtube"></a></li>
+      <li><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/travel/travel-part1.md" target="_blank"><img src="./assets/svg/twitter.svg" alt="Twitter"></a></li>
+    </ul>
+  </footer>
 </body>
+<script src="./index.js"></script>
 </html>
