@@ -232,3 +232,24 @@ button.start-plan {
 .dest-img.crop.left img{
     margin-left: -540px;
 }
+
+.dest-item {
+    position: relative;
+}
+
+.dest-item p {
+    position: absolute;
+    left: 15px;
+    bottom: 45px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: var(--color-add);
+}
+
+.crop.left + p {
+    display: none;
+}
